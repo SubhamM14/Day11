@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+</head>
+<body>
+    <div style="width: 500px; float: left; border: 3px solid black; font-size: 85%;">
+        <form action="#" method = "GET">
+    
+            <div style="border: 2px solid black; font-size: 20px; text-align: center; color: red; font-weight: bold"> Contact Us! </div>
+            <br>
+            <label for="fname">First Name:</label>
+    
+            <input
+              type="text"
+              id="fname"
+              name="firstName"
+              placeholder="Enter your first Name"
+            />
+            <br />
+            <br />
+            <label for="lname">Last Name:</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastName"
+              placeholder="Enter your Last Name"
+            />
+            <br />
+            <br />
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your Email"
+            />
+            <br />
+            <br />
+            <label id="doubt">Doubt Regarding: </label>
+            
+            <select name="issues" id="issue">
+              <option value="guvi">Select</option>
+              <option value="guvi">HTML & CSS</option>
+              <option value="guvi">JavaScript</option>
+              <option value="guvi">Classes/Assignments</option>
+            </select>
+            <br />
+            <br />
+            <label id="details">Describe</label><br />
+            <textarea
+              name="textArea"
+              placeholder="Please describe your doubts in details"
+              cols="40"
+              rows="10"
+            ></textarea>
+            <br />
+            <input id="sub" type="submit" value="submit" />
+          </form>
+    </div>
+</body>
+</html>
